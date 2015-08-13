@@ -10,24 +10,14 @@
 # four million, find the sum of the even-valued terms.
 #
 
-print("Fibonacci sequence...")
-
 def F(n):
-    if n == 0:
-        return 0
-    elif n == 1:
-        return 1
-    else:
-        return F(n-1)+F(n-2)
-
-def fibs_to(n):
     fibs = [0, 1]
     for i in range(2, n+1):
         fibs.append(fibs[-1] + fibs[-2])
     return fibs
 
 sum = 0
-i = fibs_to(100)
+i = F(100)
 x = 0
 
 while (i[x] < 4000000):
