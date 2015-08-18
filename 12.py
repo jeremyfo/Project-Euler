@@ -23,7 +23,7 @@
 # divisors?
 #
 # 500 divisors is 76576500.0
-# [Finished in 15.2s]
+# [Finished in 11.1s]
 
 def get_factor(num):
     table = []
@@ -43,7 +43,7 @@ while(flag):
     x += 1
     num = ((x * (x + 1)) / 2)
     table = get_factor(num)
-    #print(num,":",len(table), ":", table)
+    # print(num,":",len(table), ":", table)
     if(len(table) > 500):
             flag = False
             print("500 divisors is", num)
