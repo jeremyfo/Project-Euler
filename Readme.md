@@ -18,5 +18,5 @@ of discovery."_
 
 ## Solutions
 
-All solutions were coded in Python. Since the point of this for me is to solve the problems and learn Python along the way the solutions are not necessarily optimized or efficient. Most solutions are brute-force solutions.
+All solutions were coded in Python. Most solutions are brute-force solutions.
 
